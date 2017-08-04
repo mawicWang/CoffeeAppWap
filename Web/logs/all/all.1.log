@@ -1,0 +1,3 @@
+07-28 00:06:01.450 INFO  Release  default  - 获取微信OpenId 开始
+07-28 00:06:01.486 INFO  Release  default  - GetAuthorizeCodeUrl: https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxbf7993f26d5c5bfe&redirect_uri=http%3a%2f%2fwaimai.buzztimecoffee.com%2fAppWapCoffee%2fOrderCreate&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+07-28 00:06:01.487 INFO  Release  default  - 获取微信OpenId URlhttps://open.weixin.qq.com/connect/oauth2/authorize?appid=wxbf7993f26d5c5bfe&redirect_uri=http%3a%2f%2fwaimai.buzztimecoffee.com%2fAppWapCoffee%2fOrderCreate&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect

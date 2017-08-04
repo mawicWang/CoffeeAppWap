@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Ajax_AddRessListAjax, App_Web_addresslistajax.aspx.3cd2a9ac" %>

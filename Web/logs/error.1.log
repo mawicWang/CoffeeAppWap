@@ -1,0 +1,448 @@
+10-31 18:24:24.429 ERROR Release  default  - 获取客户地址错误,详细情况:You have specified a factory ('XMS.Inner.Coffee.Service.CoffeeService.ICoffeeService.factory' - method to be called: CreateService) for the component 'XMS.Inner.Coffee.Service.CoffeeService.ICoffeeService' XMS.Core.WCF.Client.ServiceFactory`1[[XMS.Inner.Coffee.Service.CoffeeService.ICoffeeService, WCF.Coffee.Proxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] that failed during invoke.
+10-31 18:27:02.482 ERROR Release  default  - 获取客户地址错误,详细情况:You have specified a factory ('XMS.Inner.Coffee.Service.ICoffeeService.factory' - method to be called: CreateService) for the component 'XMS.Inner.Coffee.Service.ICoffeeService' XMS.Core.WCF.Client.ServiceFactory`1[[XMS.Inner.Coffee.Service.ICoffeeService, WCF.Coffee.Proxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] that failed during invoke.
+10-31 18:30:14.962 ERROR Release  default  - 获取客户地址错误,详细情况:You have specified a factory ('XMS.Inner.Coffee.Service.ICoffeeService.factory' - method to be called: CreateService) for the component 'XMS.Inner.Coffee.Service.ICoffeeService' XMS.Core.WCF.Client.ServiceFactory`1[[XMS.Inner.Coffee.Service.ICoffeeService, WCF.Coffee.Proxy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] that failed during invoke.
+10-31 18:31:59.764 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberAddress(memberAddressUUID=NULL, memberUUID=NULL, name=NULL, telephone=NULL, cityId=NULL, address=NULL, houseNumber=NULL, startIndex=1, count=1000)，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	15960.913 ms
+	net.tcp://139.196.47.184:52070/CoffeeService
+
+		调用步骤：	
+			18:31:43.806	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			18:31:43.807	AsyncOpen
+			18:31:43.824	AsyncOpen-Begin
+			18:31:43.830	Async-OpenChannel
+			18:31:43.869	Async-OpenChannel-Success
+			18:31:43.869	Async-Pulse
+			18:31:43.869	AsyncOpen-Sucess
+			18:31:43.871	AsyncOpen Complete
+			18:31:43.871	Invoke
+			18:31:59.737	Invoke Complete
+			18:31:59.737	CloseWrapper_WhenSuc
+			18:31:59.744	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。"
+
+10-31 18:33:39.259 ERROR Release  default  - 获取客户地址错误,详细情况:超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+11-01 10:26:45.962 ERROR Release  default  - 未获取到微信用户信息
+07-11 16:06:10.386 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.238084, latitude=121.494224, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	67.004 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:06:10.319	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:06:10.319	Invoke
+			16:06:10.386	Invoke Complete
+			16:06:10.386	CloseWrapper_WhenSuc
+			16:06:10.386	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.CResCoordinatePO is invalid, please ensure it has been registered to the container."
+
+07-11 16:06:10.388 ERROR Release  default  - 获取餐厅列表错误，详细：The type XMS.Inner.Coffee.Model.CResCoordinatePO is invalid, please ensure it has been registered to the container.
+07-11 16:06:15.644 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.238084, latitude=121.494224, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	18.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:06:15.626	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:06:15.626	Invoke
+			16:06:15.644	Invoke Complete
+			16:06:15.644	CloseWrapper_WhenSuc
+			16:06:15.644	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.CResCoordinatePO is invalid, please ensure it has been registered to the container."
+
+07-11 16:06:15.645 ERROR Release  default  - 获取餐厅列表错误，详细：The type XMS.Inner.Coffee.Model.CResCoordinatePO is invalid, please ensure it has been registered to the container.
+07-11 16:09:42.770 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.238084, latitude=121.494224, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	48.003 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:09:42.722	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:09:42.722	Invoke
+			16:09:42.770	Invoke Complete
+			16:09:42.770	CloseWrapper_WhenSuc
+			16:09:42.770	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.CResCoordinatePO is invalid, please ensure it has been registered to the container."
+
+07-11 16:09:42.771 ERROR Release  default  - 获取餐厅列表错误，详细：The type XMS.Inner.Coffee.Model.CResCoordinatePO is invalid, please ensure it has been registered to the container.
+07-11 16:12:23.692 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	267.015 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:12:23.425	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			16:12:23.425	AsyncOpen
+			16:12:23.425	AsyncOpen-Begin
+			16:12:23.426	Async-OpenChannel
+			16:12:23.518	Async-OpenChannel-Success
+			16:12:23.518	Async-Pulse
+			16:12:23.518	AsyncOpen-Sucess
+			16:12:23.518	AsyncOpen Complete
+			16:12:23.518	Invoke
+			16:12:23.692	Invoke Complete
+			16:12:23.692	CloseWrapper_WhenSuc
+			16:12:23.692	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=404,
+				Value=NULL,
+				Message="Duplicate mapping for property Id detected."
+
+07-11 16:12:23.695 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：Duplicate mapping for property Id detected.
+07-11 16:12:23.696 ERROR Release  default  - 未获取到微信用户信息
+07-11 16:30:01.794 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	252.014 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:30:01.541	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			16:30:01.541	AsyncOpen
+			16:30:01.541	AsyncOpen-Begin
+			16:30:01.542	Async-OpenChannel
+			16:30:01.603	Async-OpenChannel-Success
+			16:30:01.603	Async-Pulse
+			16:30:01.603	AsyncOpen-Sucess
+			16:30:01.603	AsyncOpen Complete
+			16:30:01.603	Invoke
+			16:30:01.794	Invoke Complete
+			16:30:01.794	CloseWrapper_WhenSuc
+			16:30:01.794	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=404,
+				Value=NULL,
+				Message="Duplicate mapping for property Id detected."
+
+07-11 16:30:01.796 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：Duplicate mapping for property Id detected.
+07-11 16:30:01.797 ERROR Release  default  - 未获取到微信用户信息
+07-11 17:02:36.242 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 17:04:45.024 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 17:04:56.256 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 17:07:17.952 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 17:08:50.254 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 17:43:15.471 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 17:48:39.556 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 17:50:50.912 ERROR Release  default  - 系统未能成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，并且在调用过程中因为发生网络连接或超时错误而依次对多个远程终端点总共发起了 2 次请求，请求的远程服务地址和结果情况如下：
+		调用耗时：	1536.088 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:50:49.376	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			17:50:49.376	Invoke
+			17:50:49.378	CloseWrapper_WhenFail
+		详细错误：	对路径“D:\项目管理\咖啡1\05 代码\CoffeeAppWap\Web\logs\UnExpectedBehavorLog\2016-12-29\UnExpectedBehavorLog.1.log”的访问被拒绝。
+System.UnauthorizedAccessException
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   在 XMS.Core.Logging.Log4net.CustomFileAppender.RollOverTime(List`1 files, DateTime date)
+   在 XMS.Core.Logging.Log4net.CustomFileAppender.ActivateOptions()
+   在 XMS.Core.Logging.DefaultLogService.GetLogger(String name)
+   在 XMS.Core.WCF.Client.EndPointTrace`1.HandleError(Exception error, ServiceProxyWrapper`1 wrapper, Boolean bIsChannelOpened)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:50:49.381	Intercept-Begin,BusyCount=4;IdleCount=0;Channel state:Created
+			17:50:49.381	AsyncOpen
+			17:50:49.381	AsyncOpen-Begin
+			17:50:49.386	Async-OpenChannel
+			17:50:50.909	Async-Error
+			17:50:50.909	Async-Pulse
+			17:50:50.911	AsyncOpen-Failure
+			17:50:50.911	CloseWrapper_WhenFail
+			17:50:50.911	Proxy-Dispose-Begin
+			17:50:50.911	Proxy-Dispose-End
+			17:50:50.911	CloseWrapper_WhenFail Complete
+		详细错误：	无法连接到 net.tcp://139.196.228.248:52070/CoffeeService。连接尝试持续了 00:00:01.5020860 时间跨度。TCP 错误代码 10053: 您的主机中的软件中止了一个已建立的连接。 139.196.228.248:52070。
+System.Net.Sockets.SocketException:您的主机中的软件中止了一个已建立的连接。 139.196.228.248:52070
+	错误码：ConnectionAborted
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+System.ServiceModel.CommunicationException
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+
+07-11 17:50:50.916 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：您的主机中的软件中止了一个已建立的连接。 139.196.228.248:52070
+	错误码：ConnectionAborted
+07-11 17:50:50.917 ERROR Release  default  - 未获取到微信用户信息
+07-11 17:51:00.911 ERROR Release  default  - 系统未能成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，并且在调用过程中因为发生网络连接或超时错误而依次对多个远程终端点总共发起了 2 次请求，请求的远程服务地址和结果情况如下：
+		调用耗时：	11533.660 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:50:49.378	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			17:50:49.378	Invoke
+			17:50:49.379	CloseWrapper_WhenFail
+			17:50:49.385	Proxy-Dispose-Begin
+			17:50:49.385	Proxy-Dispose-End
+			17:50:49.385	CloseWrapper_WhenFail Complete
+			17:50:49.385	Intercept-Begin,BusyCount=4;IdleCount=0;Channel state:Created
+			17:50:49.385	AsyncOpen
+			17:50:49.385	AsyncOpen-Begin
+			17:50:49.386	Async-OpenChannel
+			17:50:50.908	Async-Error
+			17:50:50.908	Async-Pulse
+			17:50:50.909	AsyncOpen-Failure
+			17:50:50.909	CloseWrapper_WhenFail
+			17:50:50.909	Proxy-Dispose-Begin
+			17:50:50.909	Proxy-Dispose-End
+			17:50:50.909	CloseWrapper_WhenFail Complete
+		详细错误：	无法连接到 net.tcp://139.196.228.248:52070/CoffeeService。连接尝试持续了 00:00:01.5020860 时间跨度。TCP 错误代码 10053: 您的主机中的软件中止了一个已建立的连接。 139.196.228.248:52070。
+System.Net.Sockets.SocketException:您的主机中的软件中止了一个已建立的连接。 139.196.228.248:52070
+	错误码：ConnectionAborted
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+System.ServiceModel.CommunicationException
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:50:50.909	Intercept-Begin,BusyCount=4;IdleCount=0;Channel state:Created
+			17:50:50.909	AsyncOpen
+			17:50:50.909	AsyncOpen-Begin
+			17:50:50.911	Async-OpenChannel
+			17:51:00.911	AsyncOpen-Timeout-Abort-Begin
+			17:51:00.911	AsyncOpen-Timeout-Abort-End
+			17:51:00.911	CloseWrapper_WhenFail
+			17:51:00.911	Proxy-Dispose-Begin
+			17:51:00.911	Proxy-Dispose-End
+			17:51:00.911	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+
+07-11 17:51:00.911 ERROR Release  default  - 系统未能成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，并且在调用过程中因为发生网络连接或超时错误而依次对多个远程终端点总共发起了 2 次请求，请求的远程服务地址和结果情况如下：
+		调用耗时：	11531.660 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:50:49.381	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Created
+			17:50:49.381	AsyncOpen
+			17:50:49.381	AsyncOpen-Begin
+			17:50:49.381	Async-OpenChannel
+			17:50:50.909	Async-Error
+			17:50:50.909	Async-Pulse
+			17:50:50.909	AsyncOpen-Failure
+			17:50:50.909	CloseWrapper_WhenFail
+			17:50:50.909	Proxy-Dispose-Begin
+			17:50:50.909	Proxy-Dispose-End
+			17:50:50.909	CloseWrapper_WhenFail Complete
+		详细错误：	无法连接到 net.tcp://139.196.228.248:52070/CoffeeService。连接尝试持续了 00:00:01.5020860 时间跨度。TCP 错误代码 10053: 您的主机中的软件中止了一个已建立的连接。 139.196.228.248:52070。
+System.Net.Sockets.SocketException:您的主机中的软件中止了一个已建立的连接。 139.196.228.248:52070
+	错误码：ConnectionAborted
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+System.ServiceModel.CommunicationException
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+
+Exception rethrown at [0]: 
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:50:50.910	Intercept-Begin,BusyCount=4;IdleCount=0;Channel state:Created
+			17:50:50.910	AsyncOpen
+			17:50:50.910	AsyncOpen-Begin
+			17:50:50.911	Async-OpenChannel
+			17:51:00.911	AsyncOpen-Timeout-Abort-Begin
+			17:51:00.911	AsyncOpen-Timeout-Abort-End
+			17:51:00.911	CloseWrapper_WhenFail
+			17:51:00.911	Proxy-Dispose-Begin
+			17:51:00.911	Proxy-Dispose-End
+			17:51:00.911	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+
+07-11 17:51:00.914 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：在 00:10:00.000 内未能打开通道。
+07-11 17:51:00.915 ERROR Release  default  - 未获取到微信用户信息
+07-11 17:51:00.913 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：在 00:10:00.000 内未能打开通道。
+07-11 17:51:00.918 ERROR Release  default  - 未获取到微信用户信息
+07-11 17:51:39.049 ERROR Release  default  - 系统未能成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，并且在调用过程中因为发生网络连接或超时错误而依次对多个远程终端点总共发起了 2 次请求，请求的远程服务地址和结果情况如下：
+		调用耗时：	20004.144 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:51:19.044	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			17:51:19.044	AsyncOpen
+			17:51:19.044	AsyncOpen-Begin
+			17:51:19.045	Async-OpenChannel
+			17:51:29.046	AsyncOpen-Timeout-Abort-Begin
+			17:51:29.046	AsyncOpen-Timeout-Abort-End
+			17:51:29.046	CloseWrapper_WhenFail
+			17:51:29.046	Proxy-Dispose-Begin
+			17:51:29.046	Proxy-Dispose-End
+			17:51:29.046	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:51:29.047	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			17:51:29.047	AsyncOpen
+			17:51:29.047	AsyncOpen-Begin
+			17:51:29.049	Async-OpenChannel
+			17:51:39.048	AsyncOpen-Timeout-Abort-Begin
+			17:51:39.048	AsyncOpen-Timeout-Abort-End
+			17:51:39.048	CloseWrapper_WhenFail
+			17:51:39.048	Proxy-Dispose-Begin
+			17:51:39.048	Proxy-Dispose-End
+			17:51:39.048	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+
+07-11 17:51:39.050 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：在 00:10:00.000 内未能打开通道。
+07-11 17:51:39.051 ERROR Release  default  - 未获取到微信用户信息
+07-11 17:52:02.985 ERROR Release  default  - 系统未能成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，并且在调用过程中因为发生网络连接或超时错误而依次对多个远程终端点总共发起了 2 次请求，请求的远程服务地址和结果情况如下：
+		调用耗时：	20004.144 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:51:42.981	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			17:51:42.981	AsyncOpen
+			17:51:42.981	AsyncOpen-Begin
+			17:51:42.982	Async-OpenChannel
+			17:51:52.982	AsyncOpen-Timeout-Abort-Begin
+			17:51:52.982	AsyncOpen-Timeout-Abort-End
+			17:51:52.982	CloseWrapper_WhenFail
+			17:51:52.982	Proxy-Dispose-Begin
+			17:51:52.982	Proxy-Dispose-End
+			17:51:52.982	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:51:52.982	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			17:51:52.983	AsyncOpen
+			17:51:52.983	AsyncOpen-Begin
+			17:51:52.983	Async-OpenChannel
+			17:52:02.984	AsyncOpen-Timeout-Abort-Begin
+			17:52:02.984	AsyncOpen-Timeout-Abort-End
+			17:52:02.984	CloseWrapper_WhenFail
+			17:52:02.984	Proxy-Dispose-Begin
+			17:52:02.984	Proxy-Dispose-End
+			17:52:02.984	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+
+07-11 17:52:02.986 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：在 00:10:00.000 内未能打开通道。
+07-11 17:52:02.988 ERROR Release  default  - 未获取到微信用户信息
+07-11 17:52:40.298 ERROR Release  default  - 系统未能成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，并且在调用过程中因为发生网络连接或超时错误而依次对多个远程终端点总共发起了 2 次请求，请求的远程服务地址和结果情况如下：
+		调用耗时：	20004.144 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:52:20.294	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			17:52:20.294	AsyncOpen
+			17:52:20.294	AsyncOpen-Begin
+			17:52:20.295	Async-OpenChannel
+			17:52:30.295	AsyncOpen-Timeout-Abort-Begin
+			17:52:30.296	AsyncOpen-Timeout-Abort-End
+			17:52:30.296	CloseWrapper_WhenFail
+			17:52:30.296	Proxy-Dispose-Begin
+			17:52:30.296	Proxy-Dispose-End
+			17:52:30.296	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:52:30.296	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			17:52:30.296	AsyncOpen
+			17:52:30.296	AsyncOpen-Begin
+			17:52:30.297	Async-OpenChannel
+			17:52:40.298	AsyncOpen-Timeout-Abort-Begin
+			17:52:40.298	AsyncOpen-Timeout-Abort-End
+			17:52:40.298	CloseWrapper_WhenFail
+			17:52:40.298	Proxy-Dispose-Begin
+			17:52:40.298	Proxy-Dispose-End
+			17:52:40.298	CloseWrapper_WhenFail Complete
+		详细错误：	在 00:10:00.000 内未能打开通道。
+System.ServiceModel.EndpointNotFoundException
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.InterceptInner(IInvocation invocation, ServiceProxyWrapper`1& serviceProxyWrapper, EndPointTrace`1 errorEndpoint, InvokeStatistics objInvoke, List`1 invokeStack, Boolean bIsStillUseErrorEndpoint, Int32 nRetryCount)
+   在 XMS.Core.WCF.Client.ServiceFactory`1.ServiceInterceptor.Intercept(IInvocation invocation)
+
+
+
+07-11 17:52:40.299 ERROR Release  default  - 获取微信用户错误。微信ID：o9j1twZEAPDUCCRIwKa7Wgp6bDXE 错误信息：在 00:10:00.000 内未能打开通道。
+07-11 17:52:40.300 ERROR Release  default  - 未获取到微信用户信息
+07-11 17:57:27.135 ERROR Release  default  - 商品信息错误，请重新选择
+07-11 18:02:53.994 ERROR Release  default  - 商品信息错误，请重新选择

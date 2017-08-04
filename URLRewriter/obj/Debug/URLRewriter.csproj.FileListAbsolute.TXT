@@ -1,0 +1,23 @@
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\Common\Web\Bin\URLRewriter.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\Common\Web\Bin\URLRewriter.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\Common\URLRewriter\obj\Debug\URLRewriter.csprojResolveAssemblyReference.cache
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\Common\URLRewriter\obj\Debug\URLRewriter.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\Common\URLRewriter\obj\Debug\URLRewriter.pdb
+E:\项目管理\酒代\05 代码\AppWapJD\Web\Bin\URLRewriter.dll
+E:\项目管理\酒代\05 代码\AppWapJD\Web\Bin\URLRewriter.pdb
+E:\项目管理\酒代\05 代码\AppWapJD\URLRewriter\obj\Debug\URLRewriter.csprojResolveAssemblyReference.cache
+E:\项目管理\酒代\05 代码\AppWapJD\URLRewriter\obj\Debug\URLRewriter.dll
+E:\项目管理\酒代\05 代码\AppWapJD\URLRewriter\obj\Debug\URLRewriter.pdb
+E:\项目管理\咖啡\05 代码\AppWapCoffee\Web\Bin\URLRewriter.dll
+E:\项目管理\咖啡\05 代码\AppWapCoffee\Web\Bin\URLRewriter.pdb
+E:\项目管理\咖啡\05 代码\AppWapCoffee\URLRewriter\obj\Debug\URLRewriter.dll
+E:\项目管理\咖啡\05 代码\AppWapCoffee\URLRewriter\obj\Debug\URLRewriter.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\URLRewriter\obj\Debug\URLRewriter.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\Web\Bin\URLRewriter.dll
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\Web\Bin\URLRewriter.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\URLRewriter\obj\Debug\URLRewriter.dll
+E:\项目\咖啡1\05 代码\CoffeeAppWap\Web\Bin\URLRewriter.dll
+E:\项目\咖啡1\05 代码\CoffeeAppWap\Web\Bin\URLRewriter.pdb
+E:\项目\咖啡1\05 代码\CoffeeAppWap\URLRewriter\obj\Debug\URLRewriter.dll
+E:\项目\咖啡1\05 代码\CoffeeAppWap\URLRewriter\obj\Debug\URLRewriter.pdb
+E:\项目\咖啡1\05 代码\CoffeeAppWap\URLRewriter\obj\Debug\URLRewriter.csprojResolveAssemblyReference.cache

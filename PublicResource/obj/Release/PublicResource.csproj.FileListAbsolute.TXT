@@ -1,0 +1,2 @@
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\bin\Release\PublicResource.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\obj\Release\PublicResource.dll

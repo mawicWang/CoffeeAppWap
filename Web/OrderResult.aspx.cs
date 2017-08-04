@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Business;
+using XMS.Inner.Coffee.Service.Model;
+
+public partial class OrderResult : BasePage
+{
+
+    public OrderResult()
+        : base(string.Format("http://{0}/AppWapCoffee/OrderResult", AppSettingHelper.DomainName))
+    { }
+
+    protected List<CommodityInfoDTO> listCommodityInfo = new List<CommodityInfoDTO>();
+
+    protected string appId { get; set; }
+    protected int timestamp { get; set; }
+    protected string nonceStr { get; set; }
+    protected string signature { get; set; }
+    protected string urllink { get; set; }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        MessageInfo messageInfo = new MessageInfo() { Status = 1 };
+        try
+        {
+            if (CurrentMemberWeiXinDTO == null)
+            {
+                messageInfo.Message = "未获取到微信用户信息";
+                WCFClient.LoggerService.Error(string.Format("未获取到微信用户信息"));
+                return;
+            }
+
+
+
+            XMS.Core.ReturnValue<QueryResultCOrderPO> resultOrderPo = null;
+            if (!string.IsNullOrWhiteSpace(Request["id"]))
+            {
+                resultOrderPo = WCFClient.CoffeeService.GetOrders(int.Parse(Request["id"]), null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1, 1);
+            }
+            else
+                resultOrderPo = WCFClient.CoffeeService.GetOrders(null, null, null, CurrentMemberWeiXinDTO.MemberUUID, null, null, null, null, null, null, null, null, null, null, null, 1, 1);
+
+            if (resultOrderPo.Code != 200 || resultOrderPo.Value == null || resultOrderPo.Value.Items == null || resultOrderPo.Value.Items.Length == 0)
+                return;
+
+            //urllink = "http://waimaitest.buzztimecoffee.com/AppWapCoffee/OrderResult?id=" + resultOrderPo.Value.Items[0].Id;
+            urllink = Request.Url.AbsoluteUri;
+            XMS.Core.Container.LogService.Error(urllink);
+            XMS.Core.ReturnValue<SignatureObjectDTO> resultSignature = WCFClient.CoffeeService.GetSignatureObjectDTO(urllink);
+            if (resultSignature.Code == 200)
+            {
+                appId = resultSignature.Value.AppId;
+                timestamp = resultSignature.Value.TimeStamp;
+                nonceStr = resultSignature.Value.NonceStr;
+                signature = resultSignature.Value.Signature;
+            }
+
+            XMS.Core.ReturnValue<CommodityCategoryInfoDTO[]> resultCommodityCategory = WCFClient.CoffeeService.GetCommodityCategoryByResUUID(resultOrderPo.Value.Items[0].ResUUID);
+            if (resultCommodityCategory.Code != 200 || resultCommodityCategory.Value == null || resultCommodityCategory.Value.Length == 0)
+                return;
+
+            XMS.Core.ReturnValue<CommodityInfoDTO[]> resultCommodityInfo = WCFClient.CoffeeService.GetGoodsByClassify(resultCommodityCategory.Value[0].id);
+            if (resultCommodityInfo.Code == 1000)
+            {
+                messageInfo.Message = resultCommodityInfo.Message;
+                WCFClient.LoggerService.Error(string.Format(resultCommodityInfo.RawMessage));
+                return;
+            }
+
+            if (resultCommodityInfo.Code != 200)
+            {
+                messageInfo.Message = "网络异常稍后再试";
+                WCFClient.LoggerService.Error(string.Format(resultCommodityInfo.RawMessage));
+                return;
+            }
+
+            if (resultCommodityInfo.Value != null && resultCommodityInfo.Value.Length > 0)
+            {
+                if (resultCommodityInfo.Value.Length > 4)
+                {
+                    listCommodityInfo.Add(resultCommodityInfo.Value[0]);
+                    listCommodityInfo.Add(resultCommodityInfo.Value[1]);
+                    listCommodityInfo.Add(resultCommodityInfo.Value[2]);
+                    listCommodityInfo.Add(resultCommodityInfo.Value[4]);
+                }
+                listCommodityInfo.AddRange(resultCommodityInfo.Value);
+            }
+
+            messageInfo.Status = 0;
+            messageInfo.Message = "success";
+            messageInfo.Data = resultCommodityInfo.Value;
+        }
+        catch (Exception ex)
+        {
+            messageInfo.Status = 1;
+            messageInfo.Message = "网络异常，稍后重试";
+            WCFClient.LoggerService.Error(string.Format("根据商品类别获取商品,详细情况:{0}", ex.Message));
+        }
+    }
+}

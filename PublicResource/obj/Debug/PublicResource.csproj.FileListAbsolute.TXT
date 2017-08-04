@@ -1,0 +1,13 @@
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\bin\Debug\PublicResource.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\bin\Debug\PublicResource.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\obj\Debug\PublicResource.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\obj\Debug\PublicResource.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\PublicResource\bin\Debug\PublicResource.dll
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\PublicResource\bin\Debug\PublicResource.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\PublicResource\obj\Debug\PublicResource.dll
+D:\项目管理\咖啡1\05 代码\CoffeeAppWap\PublicResource\obj\Debug\PublicResource.pdb
+E:\项目\咖啡1\05 代码\CoffeeAppWap\PublicResource\bin\Debug\PublicResource.dll
+E:\项目\咖啡1\05 代码\CoffeeAppWap\PublicResource\bin\Debug\PublicResource.pdb
+E:\项目\咖啡1\05 代码\CoffeeAppWap\PublicResource\obj\Debug\PublicResource.dll
+E:\项目\咖啡1\05 代码\CoffeeAppWap\PublicResource\obj\Debug\PublicResource.pdb
+E:\项目\咖啡1\05 代码\CoffeeAppWap\PublicResource\obj\Debug\PublicResource.csprojResolveAssemblyReference.cache

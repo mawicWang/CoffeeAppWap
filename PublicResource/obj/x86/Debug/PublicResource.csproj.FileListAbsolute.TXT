@@ -1,0 +1,4 @@
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\bin\x86\Debug\PublicResource.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\bin\x86\Debug\PublicResource.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\obj\x86\Debug\PublicResource.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\CommonV4\PublicResource\obj\x86\Debug\PublicResource.pdb

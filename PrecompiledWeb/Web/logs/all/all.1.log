@@ -1,0 +1,35 @@
+07-12 15:50:36.060 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	166.010 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:35.895	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			15:50:35.895	AsyncOpen
+			15:50:35.897	AsyncOpen-Begin
+			15:50:35.900	Async-OpenChannel
+			15:50:35.916	Async-OpenChannel-Success
+			15:50:35.916	Async-Pulse
+			15:50:35.916	AsyncOpen-Sucess
+			15:50:35.917	AsyncOpen Complete
+			15:50:35.917	Invoke
+			15:50:36.031	Invoke Complete
+			15:50:36.031	CloseWrapper_WhenSuc
+			15:50:36.032	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "o9j1twZEAPDUCCRIwKa7Wgp6bDXE", CreateTime: '2016/11/3 17:29:39', Integral: NULL, UpdateName: "验证验证码", UpdateTime: '2017/6/5 22:37:10', Version: 0, isDelete: false, memberUUID: "3068c1a9-87ab-4b04-bb8e-aa2154ab0c09", name: "o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "o9j1twZEAPDUCCRIwKa7Wgp6bDXE", weixinAccount: "", ExtensionData: {}, id: 2}}, TotalCount: 1},
+				Message=NULL
+
+07-12 15:50:36.217 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.238084, latitude=121.494224, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，请求的远程服务地址和结果情况如下：
+		调用耗时：	74.004 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:36.142	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:50:36.143	Invoke
+			15:50:36.215	Invoke Complete
+			15:50:36.215	CloseWrapper_WhenSuc
+			15:50:36.215	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.4km", douDistence: 0.4356, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: "", resUUID: "HKL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/8 15:01:29', ExtensionData: {}, id: 9}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: NULL, cityId: "上海", contactNumber: "18001919036", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.8km", douDistence: 0.7672, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170605/2868ea8a-a4fa-479e-977c-bff08cf26f6a.jpg", isDelete: false, latitude: 121.50100400, longitude: 31.23571400, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 5.00, state: 1, updateName: "Name", updateTime: '2017/7/3 13:00:19', ExtensionData: {}, id: 25}}, TotalCount: 2},
+				Message=NULL
+

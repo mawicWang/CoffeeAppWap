@@ -1,0 +1,439 @@
+07-27 23:40:32.075 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	264.015 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:31.815	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			23:40:31.815	AsyncOpen
+			23:40:31.841	AsyncOpen-Begin
+			23:40:31.857	Async-OpenChannel
+			23:40:31.898	Async-OpenChannel-Success
+			23:40:31.898	Async-Pulse
+			23:40:31.898	AsyncOpen-Sucess
+			23:40:31.898	AsyncOpen Complete
+			23:40:31.898	Invoke
+			23:40:32.044	Invoke Complete
+			23:40:32.044	CloseWrapper_WhenSuc
+			23:40:32.053	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:32.124 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetLastMemberAddress(weixinMemberId=34)，请求的远程服务地址和结果情况如下：
+		调用耗时：	39.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:32.085	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:32.086	Invoke
+			23:40:32.123	Invoke Complete
+			23:40:32.123	CloseWrapper_WhenSuc
+			23:40:32.123	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={address: "南京西路1001号", cityId: "上海", createName: "MemberUUID", createTime: '2017/7/20 23:30:12', houseNumber: "测试", isDelete: false, isOutRange: false, label: "家", latitude: 31.23510900, longitude: 121.46448400, memberAddressUUID: "0479ccab-6f46-439b-b9b8-904f78187513", memberUUID: "3068c1a9-87ab-4b04-bb8e-aa2154ab0c09", name: "测试", sex: "先生", telephone: "13817996657", updateName: "MemberUUID", updateTime: '2017/7/22 17:29:40', version: 0, ExtensionData: {}, id: 505},
+				Message=NULL
+
+07-27 23:40:32.168 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:32.155	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:32.155	Invoke
+			23:40:32.168	Invoke Complete
+			23:40:32.168	CloseWrapper_WhenSuc
+			23:40:32.168	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:32.232 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.235109, latitude=121.464484, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，请求的远程服务地址和结果情况如下：
+		调用耗时：	49.003 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:32.180	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:32.180	Invoke
+			23:40:32.229	Invoke Complete
+			23:40:32.229	CloseWrapper_WhenSuc
+			23:40:32.229	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: NULL, cityId: "上海", contactNumber: "15221946385;15026648702", createName: "0", createTime: '2016/11/16 22:44:39', deviceId: NULL, distence: "0.0km", douDistence: 0.0107, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, loginName: "NJXL", longitude: 31.23507400, name: "南京西路店", password: "123456", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/7/26 22:39:37', ExtensionData: {}, id: 20}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:35.042 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:35.029	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:35.029	Invoke
+			23:40:35.042	Invoke Complete
+			23:40:35.042	CloseWrapper_WhenSuc
+			23:40:35.042	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:35.063 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.235109, latitude=121.464484, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，请求的远程服务地址和结果情况如下：
+		调用耗时：	19.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:35.043	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:35.043	Invoke
+			23:40:35.062	Invoke Complete
+			23:40:35.062	CloseWrapper_WhenSuc
+			23:40:35.062	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: NULL, cityId: "上海", contactNumber: "15221946385;15026648702", createName: "0", createTime: '2016/11/16 22:44:39', deviceId: NULL, distence: "0.0km", douDistence: 0.0107, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, loginName: "NJXL", longitude: 31.23507400, name: "南京西路店", password: "123456", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/7/26 22:39:37', ExtensionData: {}, id: 20}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:45.886 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:45.872	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:45.872	Invoke
+			23:40:45.886	Invoke Complete
+			23:40:45.886	CloseWrapper_WhenSuc
+			23:40:45.886	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:45.912 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetLastMemberAddress(weixinMemberId=34)，请求的远程服务地址和结果情况如下：
+		调用耗时：	22.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:45.890	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:45.890	Invoke
+			23:40:45.912	Invoke Complete
+			23:40:45.912	CloseWrapper_WhenSuc
+			23:40:45.912	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={address: "南京西路1001号", cityId: "上海", createName: "MemberUUID", createTime: '2017/7/20 23:30:12', houseNumber: "测试", isDelete: false, isOutRange: false, label: "家", latitude: 31.23510900, longitude: 121.46448400, memberAddressUUID: "0479ccab-6f46-439b-b9b8-904f78187513", memberUUID: "3068c1a9-87ab-4b04-bb8e-aa2154ab0c09", name: "测试", sex: "先生", telephone: "13817996657", updateName: "MemberUUID", updateTime: '2017/7/22 17:29:40', version: 0, ExtensionData: {}, id: 505},
+				Message=NULL
+
+07-27 23:40:45.939 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:45.925	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:45.925	Invoke
+			23:40:45.938	Invoke Complete
+			23:40:45.939	CloseWrapper_WhenSuc
+			23:40:45.939	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:45.960 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.235109, latitude=121.464484, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，请求的远程服务地址和结果情况如下：
+		调用耗时：	20.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:45.939	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:45.939	Invoke
+			23:40:45.959	Invoke Complete
+			23:40:45.959	CloseWrapper_WhenSuc
+			23:40:45.959	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: NULL, cityId: "上海", contactNumber: "15221946385;15026648702", createName: "0", createTime: '2016/11/16 22:44:39', deviceId: NULL, distence: "0.0km", douDistence: 0.0107, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, loginName: "NJXL", longitude: 31.23507400, name: "南京西路店", password: "123456", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/7/26 22:39:37', ExtensionData: {}, id: 20}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:55.023 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:55.010	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:55.010	Invoke
+			23:40:55.022	Invoke Complete
+			23:40:55.022	CloseWrapper_WhenSuc
+			23:40:55.022	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:55.046 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=31.235109, latitude=121.464484, alphabet=NULL, startIndex=1, count=1000, containOutRange=false, state={1})，请求的远程服务地址和结果情况如下：
+		调用耗时：	21.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:55.024	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:55.024	Invoke
+			23:40:55.045	Invoke Complete
+			23:40:55.045	CloseWrapper_WhenSuc
+			23:40:55.045	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: NULL, cityId: "上海", contactNumber: "15221946385;15026648702", createName: "0", createTime: '2016/11/16 22:44:39', deviceId: NULL, distence: "0.0km", douDistence: 0.0107, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, loginName: "NJXL", longitude: 31.23507400, name: "南京西路店", password: "123456", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/7/26 22:39:37', ExtensionData: {}, id: 20}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:56.389 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:56.375	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:56.375	Invoke
+			23:40:56.389	Invoke Complete
+			23:40:56.389	CloseWrapper_WhenSuc
+			23:40:56.389	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:56.437 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetGoodsClassifyDTO(resId=20)，请求的远程服务地址和结果情况如下：
+		调用耗时：	44.003 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:56.393	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:56.393	Invoke
+			23:40:56.437	Invoke Complete
+			23:40:56.437	CloseWrapper_WhenSuc
+			23:40:56.437	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={{ExtensionData: {}, chineseName: "意式咖啡", englishName: "ESPRESSO COFFEE", id: 5, picPath: NULL}, {ExtensionData: {}, chineseName: "单品咖啡", englishName: "SINGLE ORIGIN", id: 7, picPath: NULL}, {ExtensionData: {}, chineseName: "冰沙", englishName: "SMOOTH", id: 8, picPath: NULL}, {ExtensionData: {}, chineseName: "特制饮品", englishName: "SPECIAL DRINK", id: 9, picPath: NULL}, {ExtensionData: {}, chineseName: "鲜榨果汁", englishName: "FRESH JUICE", id: 10, picPath: NULL}},
+				Message=NULL
+
+07-27 23:40:56.489 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:56.476	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:56.476	Invoke
+			23:40:56.489	Invoke Complete
+			23:40:56.489	CloseWrapper_WhenSuc
+			23:40:56.489	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:40:56.563 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetGoodsByClassify(commodityCategoryId=5)，请求的远程服务地址和结果情况如下：
+		调用耗时：	62.004 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:40:56.498	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:40:56.498	Invoke
+			23:40:56.560	Invoke Complete
+			23:40:56.560	CloseWrapper_WhenSuc
+			23:40:56.560	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={{ExtensionData: {}, chineseName: "美式咖啡", englishName: "AMERICANO", id: 19, picPath: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Commodity/mskf_list.png", price: 0.01, skuInfo: {{ExtensionData: {}, chineseName: "杯型选项", enableMultiple: false, englishName: "EnglishName", id: 5, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "中杯", englishName: "T", id: 29}, {ExtensionData: {}, addPrice: 2.00, chineseName: "大杯", englishName: "L", id: 30}}, sort: 3, type: 1}, {ExtensionData: {}, chineseName: "温度选项", enableMultiple: false, englishName: "EnglishName", id: 4, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "冰", englishName: "Cold", id: 19}, {ExtensionData: {}, addPrice: 0.00, chineseName: "冰（去冰）", englishName: "Cold（Deicing）", id: 287}, {ExtensionData: {}, addPrice: 0.00, chineseName: "热", englishName: "Hot", id: 20}}, sort: 2, type: 1}, {ExtensionData: {}, chineseName: "配料选项", enableMultiple: true, englishName: "EnglishName", id: 6, list: {{ExtensionData: {}, addPrice: 3.00, chineseName: "焦糖", englishName: "Caramel", id: 42}, {ExtensionData: {}, addPrice: 3.00, chineseName: "香草", englishName: "Vanilla", id: 48}, {ExtensionData: {}, addPrice: 3.00, chineseName: "榛果", englishName: "Hazelnut", id: 54}, {ExtensionData: {}, addPrice: 3.00, chineseName: "薄荷", englishName: "Mint", id: 60}, {ExtensionData: {}, addPrice: 3.00, chineseName: "浓缩咖啡", englishName: "Espresso", id: 66}, {ExtensionData: {}, addPrice: 0.00, chineseName: "加糖", englishName: "Sugar", id: 288}, {ExtensionData: {}, addPrice: 0.00, chineseName: "牛奶", englishName: "Milk", id: 289}, {ExtensionData: {}, addPrice: 0.00, chineseName: "脱脂奶", englishName: "SkimMilk", id: 78}, {ExtensionData: {}, addPrice: 0.00, chineseName: "低因咖啡", englishName: "DecafCoffee", id: 72}}, sort: 1, type: 1}}, target: "", type: 0}, {ExtensionData: {}, chineseName: "拿铁", englishName: "LATTE", id: 14, picPath: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Commodity/nt_list.png", price: 0.01, skuInfo: {{ExtensionData: {}, chineseName: "杯型选项", enableMultiple: false, englishName: "EnglishName", id: 5, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "中杯", englishName: "T", id: 33}, {ExtensionData: {}, addPrice: 3.00, chineseName: "大杯", englishName: "L", id: 34}}, sort: 3, type: 1}, {ExtensionData: {}, chineseName: "温度选项", enableMultiple: false, englishName: "EnglishName", id: 4, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "冰", englishName: "Cold", id: 17}, {ExtensionData: {}, addPrice: 0.00, chineseName: "冰（去冰）", englishName: "Cold（Deicing）", id: 295}, {ExtensionData: {}, addPrice: 0.00, chineseName: "热", englishName: "Hot", id: 18}}, sort: 2, type: 1}, {ExtensionData: {}, chineseName: "配料选项", enableMultiple: true, englishName: "EnglishName", id: 6, list: {{ExtensionData: {}, addPrice: 3.00, chineseName: "焦糖", englishName: "Caramel", id: 41}, {ExtensionData: {}, addPrice: 3.00, chineseName: "香草", englishName: "Vanilla", id: 47}, {ExtensionData: {}, addPrice: 3.00, chineseName: "榛果", englishName: "Hazelnut", id: 53}, {ExtensionData: {}, addPrice: 3.00, chineseName: "薄荷", englishName: "Mint", id: 59}, {ExtensionData: {}, addPrice: 3.00, chineseName: "浓缩咖啡", englishName: "Espresso", id: 65}, {ExtensionData: {}, addPrice: 0.00, chineseName: "加糖", englishName: "Sugar", id: 293}, {ExtensionData: {}, addPrice: 0.00, chineseName: "牛奶", englishName: "Milk", id: 294}, {ExtensionData: {}, addPrice: 0.00, chineseName: "脱脂奶", englishName: "SkimMilk", id: 77}, {ExtensionData: {}, addPrice: 0.00, chineseName: "低因咖啡", englishName: "DecafCoffee", id: 71}}, sort: 1, type: 1}}, target: "", type: 0}, {ExtensionData: {}, chineseName: "摩卡", englishName: "MOCHA", id: 21, picPath: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170410/0583095c-27e9-46ac-91e5-07cb8281570a.jpg", price: 0.01, skuInfo: {{ExtensionData: {}, chineseName: "杯型选项", enableMultiple: false, englishName: "EnglishName", id: 5, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "中杯", englishName: "T", id: 37}, {ExtensionData: {}, addPrice: 3.00, chineseName: "大杯", englishName: "L", id: 38}}, sort: 3, type: 1}, {ExtensionData: {}, chineseName: "温度选项", enableMultiple: false, englishName: "EnglishName", id: 4, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "冰", englishName: "Cold", id: 23}, {ExtensionData: {}, addPrice: 0.00, chineseName: "冰（去冰）", englishName: "Cold（Deicing）", id: 290}, {ExtensionData: {}, addPrice: 0.00, chineseName: "热", englishName: "Hot", id: 24}}, sort: 2, type: 1}, {ExtensionData: {}, chineseName: "配料选项", enableMultiple: true, englishName: "EnglishName", id: 6, list: {{ExtensionData: {}, addPrice: 3.00, chineseName: "浓缩咖啡", englishName: "Espresso", id: 68}, {ExtensionData: {}, addPrice: 0.00, chineseName: "半糖", englishName: "Half Sugar", id: 292}, {ExtensionData: {}, addPrice: 0.00, chineseName: "脱脂奶", englishName: "SkimMilk", id: 80}, {ExtensionData: {}, addPrice: 0.00, chineseName: "低因咖啡", englishName: "DecafCoffee", id: 74}}, sort: 1, type: 1}}, target: "", type: 0}, {ExtensionData: {}, chineseName: "焦糖玛奇朵", englishName: "CARAMEL MACCHIATO", id: 22, picPath: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Commodity/jtmqd_list.png", price: 28.00, skuInfo: {{ExtensionData: {}, chineseName: "杯型选项", enableMultiple: false, englishName: "EnglishName", id: 5, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "中杯", englishName: "T", id: 31}, {ExtensionData: {}, addPrice: 2.00, chineseName: "大杯", englishName: "L", id: 32}}, sort: 3, type: 1}, {ExtensionData: {}, chineseName: "温度选项", enableMultiple: false, englishName: "EnglishName", id: 4, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "冰", englishName: "Cold", id: 25}, {ExtensionData: {}, addPrice: 0.00, chineseName: "冰（去冰）", englishName: "Cold（Deicing）", id: 296}, {ExtensionData: {}, addPrice: 0.00, chineseName: "热", englishName: "Hot", id: 26}}, sort: 2, type: 1}, {ExtensionData: {}, chineseName: "配料选项", enableMultiple: true, englishName: "EnglishName", id: 6, list: {{ExtensionData: {}, addPrice: 3.00, chineseName: "浓缩咖啡", englishName: "Espresso", id: 297}, {ExtensionData: {}, addPrice: 0.00, chineseName: "半糖", englishName: "Half Sugar", id: 298}, {ExtensionData: {}, addPrice: 0.00, chineseName: "脱脂奶", englishName: "SkimMilk", id: 81}, {ExtensionData: {}, addPrice: 0.00, chineseName: "低因咖啡", englishName: "DecafCoffee", id: 75}}, sort: 1, type: 1}}, target: "", type: 0}, {ExtensionData: {}, chineseName: "特制冰咖啡", englishName: "ICED COFFEE", id: 23, picPath: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Commodity/tzbkf_list.png", price: 22.00, skuInfo: {{ExtensionData: {}, chineseName: "杯型选项", enableMultiple: false, englishName: "EnglishName", id: 5, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "中杯", englishName: "T", id: 39}, {ExtensionData: {}, addPrice: 3.00, chineseName: "大杯", englishName: "L", id: 40}}, sort: 3, type: 1}, {ExtensionData: {}, chineseName: "温度选项", enableMultiple: false, englishName: "EnglishName", id: 4, list: {{ExtensionData: {}, addPrice: 0.00, chineseName: "冰", englishName: "Cold", id: 27}, {ExtensionData: {}, addPrice: 0.00, chineseName: "冰（去冰）", englishName: "Cold（Deicing）", id: 28}}, sort: 2, type: 1}, {ExtensionData: {}, chineseName: "配料选项", enableMultiple: true, englishName: "EnglishName", id: 6, list: {{ExtensionData: {}, addPrice: 3.00, chineseName: "焦糖", englishName: "Caramel", id: 46}, {ExtensionData: {}, addPrice: 3.00, chineseName: "香草", englishName: "Vanilla", id: 52}, {ExtensionData: {}, addPrice: 3.00, chineseName: "榛果", englishName: "Hazelnut", id: 58}, {ExtensionData: {}, addPrice: 3.00, chineseName: "薄荷", englishName: "Mint", id: 64}, {ExtensionData: {}, addPrice: 0.00, chineseName: "加糖", englishName: "Sugar", id: 76}, {ExtensionData: {}, addPrice: 0.00, chineseName: "牛奶", englishName: "Milk", id: 299}, {ExtensionData: {}, addPrice: 0.00, chineseName: "脱脂奶", englishName: "SkimMilk", id: 82}}, sort: 1, type: 1}}, target: "", type: 0}},
+				Message=NULL
+
+07-27 23:41:03.137 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:41:03.123	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			23:41:03.123	Invoke
+			23:41:03.137	Invoke Complete
+			23:41:03.137	CloseWrapper_WhenSuc
+			23:41:03.137	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:41:03.150 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=34, memberUUID=NULL, weiXinOpenId=NULL, phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:41:03.138	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			23:41:03.138	Invoke
+			23:41:03.150	Invoke Complete
+			23:41:03.150	CloseWrapper_WhenSuc
+			23:41:03.150	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:41:03.156 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	28.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:41:03.128	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			23:41:03.128	AsyncOpen
+			23:41:03.128	AsyncOpen-Begin
+			23:41:03.128	Async-OpenChannel
+			23:41:03.142	Async-OpenChannel-Success
+			23:41:03.142	Async-Pulse
+			23:41:03.142	AsyncOpen-Sucess
+			23:41:03.142	AsyncOpen Complete
+			23:41:03.142	Invoke
+			23:41:03.156	Invoke Complete
+			23:41:03.156	CloseWrapper_WhenSuc
+			23:41:03.156	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:41:03.200 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetEffectivePeriod(resId=20)，请求的远程服务地址和结果情况如下：
+		调用耗时：	41.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:41:03.158	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			23:41:03.158	Invoke
+			23:41:03.199	Invoke Complete
+			23:41:03.199	CloseWrapper_WhenSuc
+			23:41:03.199	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={{ExtensionData: {}, Date: '2017/7/28 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: false, EndTime: 45000000, StartTime: 43200000}, {ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "明天(周五)", WeekFlag: 5}, {ExtensionData: {}, Date: '2017/7/29 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "后天(周六)", WeekFlag: 6}, {ExtensionData: {}, Date: '2017/7/30 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周日", WeekFlag: 7}, {ExtensionData: {}, Date: '2017/7/31 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周一", WeekFlag: 1}, {ExtensionData: {}, Date: '2017/8/1 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 45000000, StartTime: 43200000}, {ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周二", WeekFlag: 2}, {ExtensionData: {}, Date: '2017/8/2 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 45000000, StartTime: 43200000}, {ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周三", WeekFlag: 3}},
+				Message=NULL
+
+07-27 23:41:03.274 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:41:03.260	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			23:41:03.260	Invoke
+			23:41:03.274	Invoke Complete
+			23:41:03.274	CloseWrapper_WhenSuc
+			23:41:03.274	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:41:03.465 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetAvailableCouponDTO(getAvailableCoupon={ExtensionData: NULL, commodity: {{ExtensionData: NULL, commodityId: 19, quantity: 1, skuList: {29, 19}}}, deliveryMaxTime: '2017/7/28 13:00:00', deliveryMinTime: '2017/7/28 12:30:00', deliveryType: 0, resId: 20}, memberId=34)，请求的远程服务地址和结果情况如下：
+		调用耗时：	75.004 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:41:03.390	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			23:41:03.390	Invoke
+			23:41:03.465	Invoke Complete
+			23:41:03.465	CloseWrapper_WhenSuc
+			23:41:03.465	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={},
+				Message=NULL
+
+07-27 23:45:06.351 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	577.033 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:45:05.774	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			23:45:05.774	Invoke
+			23:45:06.118	CloseWrapper_WhenFail
+			23:45:06.175	Proxy-Dispose-Begin
+			23:45:06.283	Proxy-Dispose-End
+			23:45:06.283	CloseWrapper_WhenFail Complete
+			23:45:06.283	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			23:45:06.283	AsyncOpen
+			23:45:06.283	AsyncOpen-Begin
+			23:45:06.317	Async-OpenChannel
+			23:45:06.331	Async-OpenChannel-Success
+			23:45:06.331	Async-Pulse
+			23:45:06.331	AsyncOpen-Sucess
+			23:45:06.331	AsyncOpen Complete
+			23:45:06.331	Invoke
+			23:45:06.351	Invoke Complete
+			23:45:06.351	CloseWrapper_WhenSuc
+			23:45:06.351	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:45:06.355 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	581.033 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:45:05.774	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			23:45:05.775	Invoke
+			23:45:06.118	CloseWrapper_WhenFail
+			23:45:06.177	Proxy-Dispose-Begin
+			23:45:06.284	Proxy-Dispose-End
+			23:45:06.284	CloseWrapper_WhenFail Complete
+			23:45:06.284	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			23:45:06.284	AsyncOpen
+			23:45:06.284	AsyncOpen-Begin
+			23:45:06.325	Async-OpenChannel
+			23:45:06.338	Async-OpenChannel-Success
+			23:45:06.338	Async-Pulse
+			23:45:06.338	AsyncOpen-Sucess
+			23:45:06.338	AsyncOpen Complete
+			23:45:06.338	Invoke
+			23:45:06.355	Invoke Complete
+			23:45:06.355	CloseWrapper_WhenSuc
+			23:45:06.355	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:45:06.365 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=34, memberUUID=NULL, weiXinOpenId=NULL, phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:45:06.352	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			23:45:06.352	Invoke
+			23:45:06.365	Invoke Complete
+			23:45:06.365	CloseWrapper_WhenSuc
+			23:45:06.365	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:45:06.406 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetEffectivePeriod(resId=20)，请求的远程服务地址和结果情况如下：
+		调用耗时：	50.003 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:45:06.356	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			23:45:06.356	Invoke
+			23:45:06.406	Invoke Complete
+			23:45:06.406	CloseWrapper_WhenSuc
+			23:45:06.406	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={{ExtensionData: {}, Date: '2017/7/28 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: false, EndTime: 45000000, StartTime: 43200000}, {ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "明天(周五)", WeekFlag: 5}, {ExtensionData: {}, Date: '2017/7/29 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "后天(周六)", WeekFlag: 6}, {ExtensionData: {}, Date: '2017/7/30 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周日", WeekFlag: 7}, {ExtensionData: {}, Date: '2017/7/31 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周一", WeekFlag: 1}, {ExtensionData: {}, Date: '2017/8/1 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 45000000, StartTime: 43200000}, {ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周二", WeekFlag: 2}, {ExtensionData: {}, Date: '2017/8/2 0:00:00', EffectivePeriod: {{ExtensionData: {}, Available: true, EndTime: 45000000, StartTime: 43200000}, {ExtensionData: {}, Available: true, EndTime: 46800000, StartTime: 45000000}, {ExtensionData: {}, Available: true, EndTime: 48600000, StartTime: 46800000}, {ExtensionData: {}, Available: true, EndTime: 50400000, StartTime: 48600000}, {ExtensionData: {}, Available: true, EndTime: 52200000, StartTime: 50400000}, {ExtensionData: {}, Available: true, EndTime: 54000000, StartTime: 52200000}, {ExtensionData: {}, Available: true, EndTime: 55800000, StartTime: 54000000}, {ExtensionData: {}, Available: true, EndTime: 59400000, StartTime: 57600000}, {ExtensionData: {}, Available: true, EndTime: 61200000, StartTime: 59400000}, {ExtensionData: {}, Available: true, EndTime: 63000000, StartTime: 61200000}, {ExtensionData: {}, Available: true, EndTime: 64800000, StartTime: 63000000}}, ShowName: "周三", WeekFlag: 3}},
+				Message=NULL
+
+07-27 23:45:06.536 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetMemberWeiXins(id=NULL, memberUUID=NULL, weiXinOpenId="oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber=NULL, name=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:45:06.522	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			23:45:06.522	Invoke
+			23:45:06.536	Invoke Complete
+			23:45:06.536	CloseWrapper_WhenSuc
+			23:45:06.536	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", CreateTime: '2017/3/23 21:45:30', Integral: 1000, UpdateName: "验证验证码", UpdateTime: '2017/4/1 17:52:22', Version: 0, isDelete: false, memberUUID: "a98e1141-ac2e-460c-96d9-52533ae61f1e", name: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", phoneNumber: "15026648702", platformUserId: "", platformUserToken: "", weiXinOpenId: "oJd-wt4zAf-m9a-dsNWlUwTGdZFQ", weixinAccount: "", ExtensionData: {}, id: 34}}, TotalCount: 1},
+				Message=NULL
+
+07-27 23:46:05.456 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetAvailableCouponDTO(getAvailableCoupon={ExtensionData: NULL, commodity: {{ExtensionData: NULL, commodityId: 19, quantity: 1, skuList: {29, 19}}}, deliveryMaxTime: '2017/7/28 13:00:00', deliveryMinTime: '2017/7/28 12:30:00', deliveryType: 0, resId: 20}, memberId=34)，请求的远程服务地址和结果情况如下：
+		调用耗时：	75.004 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			23:46:05.382	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			23:46:05.382	AsyncOpen
+			23:46:05.382	AsyncOpen-Begin
+			23:46:05.398	Async-OpenChannel
+			23:46:05.410	Async-OpenChannel-Success
+			23:46:05.410	Async-Pulse
+			23:46:05.410	AsyncOpen-Sucess
+			23:46:05.410	AsyncOpen Complete
+			23:46:05.410	Invoke
+			23:46:05.456	Invoke Complete
+			23:46:05.456	CloseWrapper_WhenSuc
+			23:46:05.456	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={},
+				Message=NULL
+

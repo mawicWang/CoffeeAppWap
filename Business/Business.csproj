@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E16C08DD-F347-43B1-AB25-34D6D607EA6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business</RootNamespace>
+    <AssemblyName>Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UserAPI">
+      <HintPath>..\..\..\Lib\InnerLib\UserAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="XMS.Core">
+      <HintPath>..\..\..\Lib\XMS.Core.0.4\XMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="XMS.MemberProxy">
+      <HintPath>..\..\..\Lib\InnerLib\XMS.MemberProxy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSettingHelper.CS" />
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CacheHelper.CS" />
+    <Compile Include="Constants.CS" />
+    <Compile Include="DTO\GetAvailableCouponDTO.CS" />
+    <Compile Include="DTO\GetOpenIdResponse.CS" />
+    <Compile Include="DTO\Restaurant.CS" />
+    <Compile Include="DTO\SubmitOrderDTO.CS" />
+    <Compile Include="DTO\SubmitOrderResult.CS" />
+    <Compile Include="ErrorCodeHelper.cs" />
+    <Compile Include="HttpHelper.CS" />
+    <Compile Include="JDHelper.cs" />
+    <Compile Include="lib\Data.cs" />
+    <Compile Include="lib\Exception.CS" />
+    <Compile Include="lib\LockObject.CS" />
+    <Compile Include="lib\Notify.cs" />
+    <Compile Include="lib\ResultNotify.CS" />
+    <Compile Include="MessageInfo.CS" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tool\CoordinateTool.CS" />
+    <Compile Include="Tool\ObjectTool.CS" />
+    <Compile Include="WCFClient.CS" />
+    <Compile Include="WXHelper.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Proxy\Coffee.PortalProxy\WCF.Coffee.Proxy\WCF.Coffee.Proxy.csproj">
+      <Project>{8405CE3A-B9E9-44D8-B8BA-0AFEC19B58A4}</Project>
+      <Name>WCF.Coffee.Proxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PublicResource\PublicResource.csproj">
+      <Project>{DF51282B-F902-498F-B9C9-8E16CDB700FA}</Project>
+      <Name>PublicResource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

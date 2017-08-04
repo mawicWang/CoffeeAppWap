@@ -1,0 +1,24 @@
+﻿07-11 17:48:34.666 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=19058,InvokeStartTime=2017-07-11 17:48:15:191
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	invoke=18976	CloseWrapper_Fail=12	Retry_invoke=56
+07-11 17:48:39.845 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=19062,InvokeStartTime=2017-07-11 17:48:20:413
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	invoke=18903	CloseWrapper_Fail=0	Retry_invoke=157
+07-11 17:48:39.846 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=19176,InvokeStartTime=2017-07-11 17:48:20:414
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	invoke=18907	CloseWrapper_Fail=0	Retry_AsyncOpen=220	Retry_invoke=45
+07-11 17:51:01.174 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=11535,InvokeStartTime=2017-07-11 17:50:49:378
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	invoke=1	CloseWrapper_Fail=6	Retry_SameEndpoint_1_AsyncOpen=1523	Retry_SameEndpoint_1_CloseWrapper_Fail=0	Retry_AsyncOpen=10001	Retry_CloseWrapper_Fail=0
+07-11 17:51:01.175 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=11533,InvokeStartTime=2017-07-11 17:50:49:380
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	AsyncOpen=1528	CloseWrapper_Fail=0	Retry_AsyncOpen=10001	Retry_CloseWrapper_Fail=0
+07-11 17:51:39.239 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=20005,InvokeStartTime=2017-07-11 17:51:19:044
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	AsyncOpen=10001	CloseWrapper_Fail=0	Retry_AsyncOpen=10001	Retry_CloseWrapper_Fail=0
+07-11 17:52:03.657 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=20005,InvokeStartTime=2017-07-11 17:51:42:981
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	AsyncOpen=10001	CloseWrapper_Fail=0	Retry_AsyncOpen=10001	Retry_CloseWrapper_Fail=0
+07-11 17:52:40.315 INFO  Release  InvokeAbnormal - Invoke_Interface:GetMemberWeiXins=20004,InvokeStartTime=2017-07-11 17:52:20:294
+InvokeParas:id=NULL, memberUUID=NULL, weiXinOpenId="o9j1twZEAPDUCCRIwKa7Wgp6bDXE", phoneNumber=NULL, name=NULL, startIndex=1, count=1
+	AsyncOpen=10001	CloseWrapper_Fail=0	Retry_AsyncOpen=10000	Retry_CloseWrapper_Fail=0
